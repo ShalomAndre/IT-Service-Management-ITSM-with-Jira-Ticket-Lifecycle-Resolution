@@ -94,7 +94,7 @@ In this demonstration, I show how to apply ITSM concepts within Jira Service Man
 
 # 👤 About the Author
 
-![Diagrama da Arquitetura](project-itsm4.png)
+![Diagrama da Arquitetura](project-itsm4.jpg)
 
 
 
