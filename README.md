@@ -3,7 +3,8 @@
 This repository brings together essential concepts of **IT Service Management (ITSM)**, explains how a **Ticketing System** works, presents the **ticket lifecycle**, and ends with a **practical demonstration using Jira** to resolve real tickets.
 
 This project works as a professional portfolio to demonstrate my skills in technical support, analysis, troubleshooting, and ticket management.
-
+---
+![Diagrama da Arquitetura](project-itsm1.png)
 ---
 
 # 1. What is ITSM?
@@ -24,8 +25,8 @@ Examples of common practices within ITSM:
 - Change Management  
 - Knowledge Management
 
-Typical tools: Jira Service Management, ServiceNow, Zendesk, Freshservice, GLPI, etc.
-
+---
+![Diagrama da Arquitetura](project-itsm2.png)
 ---
 
 # 2. What is a Ticketing System?
@@ -57,29 +58,7 @@ In the video of this project, I use **Jira Service Management** to demonstrate a
 The lifecycle represents the path a ticket takes from creation to closure.  
 The standard flow is: New → In Triage → In Progress → Waiting for User → Resolved → Closed
 
-
-### ✔️ **New**  
-The ticket has just been created. No analysis yet.
-
-### ✔️ **In Triage**  
-Support analyzes category, priority, and urgency.  
-Decides:
-- who will handle it  
-- whether it is an incident or request  
-- whether it should be escalated
-
-### ✔️ **In Progress**  
-Active handling.  
-The analyst performs troubleshooting steps, technical actions, or required procedures.
-
-### ✔️ **Waiting for User**  
-More information from the user is needed or the solution requires validation.
-
-### ✔️ **Resolved**  
-The analyst applied the solution and documented everything in the ticket.
-
-### ✔️ **Closed**  
-The user confirms the resolution, or the system closes the ticket after inactivity.
+![Diagrama da Arquitetura](project-itsm3.png)
 
 ---
 
