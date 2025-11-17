@@ -66,29 +66,35 @@ The standard flow is: New → In Triage → In Progress → Waiting for User →
 
 In this demonstration, I show how to apply ITSM concepts within Jira Service Management, resolving different types of tickets.
 
-### 🎫 **Ticket 1 — Password Reset (Request Fulfillment)**  
-- User identity verification  
-- Password reset via AD/M365  
-- Clear documentation of steps  
+### 🎫 Ticket 1 — New User Creation for Microsoft Fabric (Onboarding)
+- Policy validation and user data confirmation  
+- Creation of the user in the Azure tenant with Microsoft Fabric permissions  
+- MFA configuration and application of security policies  
+- Activity logging and ticket update  
+- Closure within SLA  
+
+---
+
+### 🎫 Ticket 2 — DBA Password Reset (Incident N1)
+- Identity verification of the DBA according to internal procedure  
+- Password reset in the Azure database  
+- Credential update in the team’s secure vault  
+- Clear communication to the requester and ticket update  
 - Resolution and closure  
 
-### 🎫 **Ticket 2 — Application Not Opening (Incident N1)**  
-- Gathering information  
-- Simple diagnosis (permissions, cache, logs)  
-- N1 solution application  
-- Ticket update and communication  
+---
 
-### 🎫 **Ticket 3 — Email Account Creation (Onboarding)**  
-- Policy check  
-- Account creation  
-- Activity logging  
-- Closure within SLA  
+### 🎫 Ticket 3 — Virtual Machine Provisioning for New Project (Request Fulfillment)
+- Validation of the request and technical requirements (OS, CPU/RAM, network)  
+- Creation of the VM in Azure with requested configurations  
+- Application of security rules and connectivity testing  
+- Documentation of steps and ticket update  
 
 ---
 
 # 👤 About the Author
 
-(Insert your bio here)
+![Diagrama da Arquitetura](project-itsm4.png)
 
 
 
